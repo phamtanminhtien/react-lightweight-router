@@ -1,0 +1,56 @@
+{
+  "name": "react-lightweight-router",
+  "version": "1.1.2",
+  "description": "A lightweight, type-safe routing solution for React applications with support for dynamic route parameters",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build",
+    "example": "vite -c example/vite.config.ts"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "typescript",
+    "lightweight",
+    "routing",
+    "url-parameters",
+    "navigation"
+  ],
+  "author": "Pham Tan Minh Tien",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phamtanminhtien/react-lightweight-router"
+  },
+  "bugs": {
+    "url": "https://github.com/phamtanminhtien/react-lightweight-router/issues"
+  },
+  "homepage": "https://github.com/phamtanminhtien/react-lightweight-router#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
