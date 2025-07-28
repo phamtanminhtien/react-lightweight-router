@@ -1,18 +1,17 @@
 {
   "name": "react-lightweight-router",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A lightweight, type-safe routing solution for React applications with support for dynamic route parameters",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/react-lightweight-router.umd.js",
+  "module": "dist/react-lightweight-router.es.js",
+  "types": "dist/react-lightweight-router.d.ts",
   "files": [
     "dist",
     "README.md"
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
+      "types": "./dist/react-lightweight-router.d.ts"
     }
   },
   "scripts": {
